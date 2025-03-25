@@ -1,13 +1,19 @@
 // oblast definice funkcí
 
 // 1) Funkce co vrací boolean hodnotu zda arrayInput, obsahuje v sobě stringToFind
-function contains(arrayInput, stringToFind) {}
+function contains(arrayInput, stringToFind) {
+  return arrayInput.includes(stringToFind);
+}
 
 // 2) Funkce co vrací délku string řetězce poskytnutého ve stringInput
-function size(stringInput) {}
+function size(stringInput) {
+  return stringInput.length;
+}
 
 // 3) Funkce co vrací bool hodnotu co je AND mezi booleanInput1 a booleanInput2
-function andMe(booleanInput1, booleanInput2) {}
+function andMe(booleanInput1, booleanInput2) {
+  return booleanInput1 && booleanInput2;
+}
 
 // 4) Funkce co spojí (bez žádného přidaného znaku) dva textové řetězce string1 a string2 a vrátí je jako jeden string
 // například pro "Hello", "World" bude výsledek "HelloWorld"
